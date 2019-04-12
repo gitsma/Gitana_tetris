@@ -1,7 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILENAME} !/(css|fonts|ico|include|js)/
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L] // paimk viska nuo pradzios iki galo ^ iki $. + bet koks simbolis uz tasko. URL yra lygu viskas kas yra uz mvc/
